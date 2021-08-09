@@ -1,0 +1,54 @@
+form {
+  display: inline-block;
+
+  margin-top: 150px;
+  margin-left: 500px;
+  width: auto;
+  background-color: #fff;
+}
+/* .field {
+  background-color: #fff;
+} */
+
+.first {
+  background-color: #fff;
+}
+.first h1 {
+  color: #fff;
+  background-color: #ff0000;
+}
+i {
+  background-color: #ff0000;
+}
+
+.second input {
+  border: hidden;
+  width: 100px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+.second .row label {
+  display: flex;
+
+  flex-direction: column;
+}
+.second .row #fname {
+  margin-top: 20px;
+}
+.second .row #lname {
+  margin-left: 300px;
+
+  margin-bottom: 1px;
+  /* margin-bottom: 100p */
+}
+.second .row .add {
+  width: 500px;
+}
+.second .row2 label {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.bold {
+  font-weight: bold;
+}

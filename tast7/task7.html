@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table {
+        width: 90%;
+      }
+      *
+      {
+        margin: 0px;
+        padding: 0px;
+
+      }
+      
+      body{
+         margin: 200px;
+         background-color: pink;
+      }
+      caption{
+          width: 96.5%;
+          background-color: white;
+          padding: 10px;
+      }
+
+
+      table{
+          background-color: white;
+          width: 600px;
+          height: 400px;
+      }
+      table,
+      th,
+      tr,
+      td {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 10px;
+        /* text-align: left; */
+      }
+      td {
+        text-align: center;
+      }
+      caption {
+        font-family: "Times New Roman", Times, serif;
+        font-size: large;
+      }
+    </style>
+  </head>
+
+  <body>
+      <div>
+    <table id="t1 " >
+      <caption>
+        Health Chart
+      </caption>
+      <tr>
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Eating</th>
+      </tr>
+      <tr>
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>2 hours after eating</th>
+      </tr>
+      <tr>
+        <th>Healthy</th>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      
+          <th>Pre-Diabetes</th>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+      </tr>
+      <tr>
+          <th>Diabetes</th>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
+      </tr>
+    </table>
+</div>
+  </body>
+</html>
